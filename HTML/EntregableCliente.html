@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML Cliente</title>
+</head>
+<body>
+
+<img src=".\Muvau.png" alt="logotipo" height="250px" width="250px"><br>
+<h1>Pastelería Muvau</h1>
+<h2>Bienvenido al sitio web de Pastelería Muvau, nuestro menú es el siguiente:</h2>
+
+<p>Pastel de chocolate ---------------- $200</p>
+<p>Pastel de zanahoria ---------------- $210</p>
+<p>Pastel de limón     ---------------- $220</p>
+<p>Pastel tres leches  ---------------- $250</p>
+<p>Pastel de Oreo      ---------------- $300</p>
+<h4>También manejamos combinación de sabores, el precio de un pastel combinado es de $300 por dos sabores, aumentando $50 a partir del tercer sabor, sin importar los sabores elegidos.</h4>
+
+
+<h2>Nuestro menú de decoraciones es el siguiente:</h2>
+<p>Decorado estándar (se incluyen mensajes personalizados)      ---------------- + $0</p>
+<p>Velitas sencillas      ---------------- + $10 c/u</p>
+<p>Velitas numéricas      ---------------- + $20 c/u</p>
+
+<h3>Por favor, rellene el siguiente formulario para tomar su orden. Todos sus datos personales son confidenciales y no son compartidos con nadie.</h3>
+<h4>Información de contacto</h4>
+
+<label for="nombre">Nombre del cliente:</label><br>
+<input type="text" id="nombre" name="nombre"><br>
+
+<label for="nombre">Número telefónico, a 10 dígitos:</label><br>
+<input type="tel" id="telefono" name="telefono" maxlength="10"><br>
+
+<label for="nombre">Correo electrónico:</label><br>
+<input type="email" id="correo" name="correo" ><br>
+
+<label for="nombre">Notas específicas del pastel (mensajes personalizados, selección de los números de las velas y cantidad de velas, etc.)</label><br>
+<input type="email" id="correo" name="correo" ><br>
+
+<h4>Ahora, seleccione la configuración de su orden:</h4>
+<p>Si el pastel es de un solo sabor:</p>
+<table>
+<tr>
+    <th>Sabor (1 solo sabor)</th>
+    <th>Sabores (para pasteles combinados)</th>
+    <th>Adornos</th>
+</tr>
+
+<tr>
+    <td>
+        <input type="radio" name="saborpastel" id="saborpastel1" value="Chocolate">
+        <label for="saborpastel1">Chocolate</label>
+        <input type="radio" name="saborpastel" id="saborpastel2" value="Zanahoria">
+        <label for="saborpastel2">Zanahoria</label> <br>
+        <input type="radio" name="saborpastel" id="saborpastel3" value="Limón">
+        <label for="saborpastel3">Limón</label>
+        <input type="radio" name="saborpastel" id="saborpastel4" value="Tres leches">
+        <label for="saborpastel4">Tres leches</label> <br>
+        <input type="radio" name="saborpastel" id="saborpastel5" value="Oreo">
+        <label for="saborpastel5">Oreo</label>
+    </td>
+
+    <td>
+        <input type="checkbox" name="saborpastel" id="saborpastel1" value="Chocolate">
+        <label for="saborpastel1">Chocolate</label>
+        <input type="checkbox" name="saborpastel" id="saborpastel2" value="Zanahoria">
+        <label for="saborpastel2">Zanahoria</label> <br>
+        <input type="checkbox" name="saborpastel" id="saborpastel3" value="Limón">
+        <label for="saborpastel3">Limón</label>
+        <input type="checkbox" name="saborpastel" id="saborpastel4" value="Tres leches">
+        <label for="saborpastel4">Tres leches</label> <br>
+        <input type="checkbox" name="saborpastel" id="saborpastel5" value="Oreo">
+        <label for="saborpastel5">Oreo</label>
+    </td>
+
+    <td>
+        <input type="checkbox" name="adornopastel1" id="adornopastel1" value="Decorado estándar">
+        <label for="adornopastel1">Decorado estándar</label>  <input type="number"> <br>
+
+
+        <input type="checkbox" name="adornopastel2" id="adornopastel2" value="Velitas sencillas">
+        <label for="adornopastel1">Velitas sencillas</label> <input type="number"><br>
+        <input type="checkbox" name="adornopastel3" id="adornopastel3" value="Velitas numéricas">
+        <label for="adornopastel1">Velitas numéricas <input type="number"> </label>
+    </td>
+</tr>
+</table>
+
+<input type="reset">
+<input type="submit">
+
+<h6>Información pastelería <br>
+Calle Obregón #254, Col. Villareal, 87635, Oaxaca, México <br>
+    Teléfono: 8641523657 <br>
+    Horarios de atención: <br>
+Lunes a Viernes: 8:00 am - 5:00 pm <br>
+Sabado: 8:00 am - 12:00 am
+
+</h6>
+</body>
+</html>
